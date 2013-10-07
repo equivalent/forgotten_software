@@ -1,4 +1,5 @@
-as show in http://railscasts.com/episodes/53-handling-exceptions-revised
+as shown in http://railscasts.com/episodes/53-handling-exceptions-revised and
+https://github.com/railscasts/053-handling-exceptions-revised
 here is the code for custom error pages.
 
 
