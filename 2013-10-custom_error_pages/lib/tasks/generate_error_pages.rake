@@ -5,7 +5,6 @@ default_url_options[:host] = SERVER_URL
 namespace :error_pages do
   task :generate => :environment do
 
-    puts root_url
     statuses = %w(404 500)
     statuses.each do |status|
       puts "generating '#{curl_command(status)}'"
